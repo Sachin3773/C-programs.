@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main()
-/*{
+{
     int a[10];
     int i,sum=0;
     for(i=0;i<=+9;i++)
@@ -12,8 +12,9 @@ int main()
     }
     printf("%d",sum);
     return 0;
-}*/
-/*{
+}
+//Number of negative and positive numbers
+{
     int a[5];
     int i,c=0,d=0;
     for(i=0;i<=4;i++)
@@ -31,8 +32,9 @@ int main()
     }
     printf("\nnumber of positive numbers are %d",d);
     return 0;
-}*/
-/*{
+}
+//Sum of even numbers in an array
+{
    int a[10];
    int i,sum=0;
    for(i=0;i<=9;i++)
@@ -44,8 +46,8 @@ int main()
    }
    printf("%d",sum);
    return 0;
-}*/
-/*{
+}
+{
     int a[7];
     int i;
     for(i=0;i<=6;i++)         //reverse
@@ -56,8 +58,9 @@ int main()
     }
 return 0;
 
-}*/
-/*{
+}
+//Number of even and odd
+{
     int n,a=1,s=0;
     scanf("%d",&n);
     for(int i=1;i<=n;i++)
@@ -73,8 +76,8 @@ return 0;
             }
             printf("\n");
 }
-}*/
-/*{
+}
+{
     int a[10];
     int i;
     for(i=0;i<10;i++)
@@ -84,8 +87,8 @@ return 0;
         printf("\n%d",a[i]);
     }
     return 0;
-}*/
-/*{
+}
+{
     int a[6];
     int i,c=0;
     for(i=0;i<6;i++)
@@ -100,8 +103,8 @@ return 0;
     printf("\nnumber of negative numbers are %d",c);
     }
     return 0;
-}*/
-/*{
+}
+{
     int a[8];
     int i,sum=0;
     for(i=0;i<8;i++)
@@ -112,8 +115,8 @@ return 0;
     }
     printf("%d",sum);
     return 0;
-}*/
-/*{
+}
+{
     int a[10];
     int i,c=0,d=0;
     for(i=0;i<10;i++)
@@ -131,8 +134,8 @@ return 0;
     }
     printf("number of odd numbers are %d",d);
     return 0;
-}*/
-/*{
+}
+{
     int a[5];
     int i,min,max;
     for(i=0;i<5;i++)
@@ -147,8 +150,8 @@ return 0;
     }
     printf("minimum number is %d \n maximum number is %d",min,max);
     return 0;
-}*/
-/*{
+}
+{
     int n,a[500],i,j;
     printf("enter n :");
     scanf("%d",&n);
@@ -161,8 +164,9 @@ return 0;
         printf("%d\n",b[n]);
     }
     return 0;
-    }*/
-    /*{
+    }
+//merge two arrays in one
+    {
         int n,m;
         printf("enter the number of blocks need in the two arr :");
         scanf("%d %d",&n,&m);
@@ -183,8 +187,8 @@ return 0;
             printf("%d",c[k]);
         }
          return 0;
-    }*/
-    /*{ 
+    }
+    { 
         int a[100];
         int n,i;
         printf("enter n :");
@@ -208,8 +212,9 @@ return 0;
             printf("%d",b[i]);
         }
         return 0;
-    }*/
-    /*{
+    }
+//Deletion of element
+    {
         int n;
         printf("enter n:");
         scanf("%d",&n);
@@ -231,8 +236,8 @@ return 0;
         for(i=0;i<m;i++)
         printf("%d\n",a[i]);
         return 0;
-    }*/
-/*{
+    }
+{
     int n,m;
     scanf("%d%d",&n,&m);
     int a[n][m],b[n][m],c[n][m];
@@ -258,8 +263,8 @@ return 0;
     
     printf("\n");
     }
-}*/
-/*{
+}
+{
     int n,m;
     printf("enter the row and columns:");
     scanf("%d%d",&n,&m);
@@ -286,8 +291,8 @@ return 0;
         printf("\n");
     }
     return 0;
-}*/
-/*{
+}
+{
     int n;
     printf("enter the number of rows and columns :");
     scanf("%d",&n);
@@ -317,8 +322,8 @@ return 0;
         printf("\n");
     }
     return 0;
-}*/
-/*{
+}
+{
     int n;
     printf("enter the number of rows and columns for the matrix:");
     scanf("%d",&n);
@@ -351,8 +356,8 @@ return 0;
     else
     printf("both are not a equal matrix");
     return 0;
-}*/
-/*{
+}
+{
     int n;
     printf("enter the number of rows you want in square matrix:\n");
     scanf("%d",&n);
@@ -374,8 +379,8 @@ return 0;
     }
     printf("sum of minor diagonal of matrix is %d",s);
     return 0;
-}*/
-/*{
+}
+{
     int n,m;
     printf("enter the number of columns and rows :");
     scanf("%d%d",&n,&m);
@@ -405,8 +410,8 @@ return 0;
         printf("sum of %d column is %d\n",j+1,p);
     }
     return 0;
-}*/
-/*{
+}
+{
     int n;
     printf("enter the number of rows and column u need in matrix:\n");
     scanf("%d",&n);
@@ -438,8 +443,8 @@ return 0;
         printf("\n");
     }
     return 0;
-}*/
-/*{
+}
+{
     int n;
     printf("enter number of rows and columns : \n");
     scanf("%d",&n);
@@ -458,8 +463,8 @@ return 0;
     }
     printf("sum of lower triaangular matrix is %d",s);
     return 0;
-}*/
-/*{
+}
+{
     int n,m;
     printf("enter the number of rows and column u need\n");
     scanf("%d%d",&n,&m);
@@ -486,8 +491,8 @@ return 0;
     if(s==(m*n))
     printf("it is a symmetric matrix");
     return 0;
-}*/
-/*{
+}
+{
     int n;
     printf("enter number of rows and columns : \n");
     scanf("%d",&n);
@@ -513,8 +518,8 @@ return 0;
     printf("it is a identity matrix");
     else
     printf("it is not a identity matrix");
-}*/
-/*{
+}
+{
     int n;
     printf("enter n :");
     scanf("%d",&n);
@@ -533,8 +538,8 @@ return 0;
     for(int i=0;i<n;i++)
     printf("\n %d ",a[i]);
     return 0;
-}*/
-/*{
+}
+{
     int n;
     printf("enter n:");
     scanf("%d",&n);
@@ -552,8 +557,8 @@ return 0;
      for(int i=0;i<n;i++)
      printf("\n %d",a[i]);
      return 0;
-}*/
-/*{
+}
+{
     int n;
     printf("enter n : ");
     scanf("%d",&n);
@@ -587,8 +592,8 @@ return 0;
         printf("\n");
     }
     return 0;
-}*/
-/*{
+}
+{
     int n,m;
     scanf("%d%d",&n,&m);
     int a[n][m],b[n][m];
@@ -622,7 +627,7 @@ return 0;
     else
     printf("\nLOOSER");
     return 0;
-}*/
+}
 {
     int a,k=0;
     scanf("%d",&a);
