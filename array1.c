@@ -1,4 +1,4 @@
-// total 28 programs
+// total 31 programs
 #include<stdio.h>
 int main()
 {
@@ -647,4 +647,68 @@ return 0;
    for(int j=i-1;j>=0;j--)
    printf("%d",c[j]);
    return 0;
+}
+{
+    int n;
+    scanf("%d",&n);
+    int a[n][n],b[n][n];
+    for(int i=0;i<n;i++)
+    {
+        for(int j=0;j<n;j++)
+        scanf("%d",&a[i][j]);
+        for(int j=0;j<n;j++)
+        scanf("%d",&b[i][j]);                 //add two matrix
+    }
+    for(int i=0;i<n;i++)
+    {
+        for(int j=0;j<n;j++)
+        {
+            int s=0;
+            s=b[i][j]+a[i][j];
+            printf("%d\n",s);
+        }
+    }
+    return 0;
+}
+{
+    
+    int n;
+    scanf("%d",&n);
+    int a[n][n],b[n][n];
+    for(int i=0;i<n;i++)
+    {
+        for(int j=0;j<n;j++)
+        scanf("%d",&a[i][j]);
+        for(int j=0;j<n;j++)
+        scanf("%d",&b[i][j]);            //equal matrix check
+    }
+    for(int i=0;i<n;i++)
+    {
+        for(int j=0;j<n;j++)
+        {if(a[i][j]==b[i][j])
+         ;
+         }
+    }
+    printf("equal matrix");
+    return 0;
+}
+{
+    int n;
+    scanf("%d",&n);
+    int a[n][n];
+    for(int i=0;i<n;i++)
+    {
+        for(int j=0;j<n;j++)
+        scanf("%d",&a[i][j]);
+    }                                       //sum of main diagonsl
+    int s=0;
+    for(int i=0;i<n;i++)
+    {  
+        for(int j=0;j<n;j++)
+        {
+            if((i-j)==0)
+            s=a[i][j]+s;
+        }
+    }printf("%d",s);
+    return 0;
 }
